@@ -539,7 +539,7 @@ function Footer() {
         <footer>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: 40 }}>
                 <div>
-                    <div className="syne logo" style={{ fontSize: 28, fontWeight: 800, marginBottom: 12 }}>Ra<span style={{ color: theme.accent }}>.</span>STUDIO</div>
+                    <div className="syne logo" style={{ fontSize: 28, fontWeight: 800, marginBottom: 12 }}>R<span style={{ color: theme.accent }}>.</span>Dev</div>
                     <p style={{ color: theme.muted, fontSize: 13, maxWidth: 300, lineHeight: 1.6 }}>We design and build digital products that help businesses grow and stand out.</p>
                     <div style={{ display: "flex", gap: 12, marginTop: 24 }}>
                         {["Instagram", "Dribbble", "Behance", "LinkedIn"].map(s => (
@@ -563,7 +563,7 @@ function Footer() {
                 </div>
             </div>
             <div style={{ marginTop: 60, paddingTop: 24, borderTop: `1px solid ${theme.border}`, display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-                <span style={{ fontSize: 12, color: theme.muted }}>© 2026 Nova.Studio — All rights reserved</span>
+                <span style={{ fontSize: 12, color: theme.muted }}>© 2026 R.Dev — All rights reserved</span>
                 <span style={{ fontSize: 12, color: theme.muted }}>Miami, FL · office@nova.studio</span>
             </div>
         </footer>
